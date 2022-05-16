@@ -1,0 +1,29 @@
+#social
+{
+    text-align: right;
+    margin-top: 1.5%;
+    
+}
+
+
+.row
+{
+    background-color: #4e80ac;    
+}
+
+
+@media (max-width: 776px)
+{
+    #social
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width: 776px)
+{
+    #logo
+    {
+        text-align: center;      
+    }
+}
