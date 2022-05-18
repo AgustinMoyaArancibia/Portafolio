@@ -9,6 +9,7 @@
 #nombre , h1
 {
     font: 150% sans-serif;
+    padding: 5px;
 }
 
 
@@ -33,7 +34,9 @@
         width: 40%;
         border-radius: 80%;
         box-shadow: 3px 3px 3px grey;
-        margin-top: -18%;
+        margin-top: -25%;
+
+     
       
     }
 }

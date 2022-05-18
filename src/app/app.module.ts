@@ -4,8 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './components/encabezado/encabezado.component';
-import { LogosComponent } from './components/logos/logos.component';
-import { SocialComponent } from './components/social/social.component';
+
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -19,8 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     AppComponent,
     EncabezadoComponent,
-    LogosComponent,
-    SocialComponent,
+
     BannerComponent,
     AcercaDeMiComponent,
     ExperienciaComponent,

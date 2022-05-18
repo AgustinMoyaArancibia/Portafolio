@@ -1,29 +1,49 @@
-#social
-{
-    text-align: right;
-    margin-top: 1.5%;
-    
-}
 
 
 .row
 {
-    background-color: #4e80ac;    
+    background-color: #4e80ac;   
+    
+
+}
+
+.conteiner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 
-@media (max-width: 776px)
+#logo
 {
-    #social
+    width: 170px;
+    filter: brightness(1,1);
+    mix-blend-mode: multiply;
+}
+
+img
+{
+    padding: 1.5px;
+    width: 40px;
+
+}
+
+
+/* para el celular */
+
+@media (max-width: 576px)
+{
+    .conteiner
     {
-        text-align: center;
+        flex-direction: column;
     }
-}
 
-@media (max-width: 776px)
-{
-    #logo
+    .redes
     {
-        text-align: center;      
+        display: flex;
+    align-items: center;
+    flex-direction: column;
     }
 }
